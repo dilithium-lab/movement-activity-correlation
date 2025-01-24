@@ -1,9 +1,10 @@
 The project correlates movement transitions and patterns of photometry-based neuronal activity.
 
 The project provides python code in Jupyter Notebook for analyses
-1) Detecting movement initiation and arrest events based on Deeplabcut data ('Movement_detection_optimization.ipynb')
-2) Generating photometry activity templates ('Movement_activity_template_generation.ipynb') for movement initiation (e.g. '20220118_init_template_2_5_0_7.npy') and arrest events (e.g. '20220118_arrest_template_1_5_2_0.npy'),
-   and then perform template matching to detect events in a specific photometry trace ('Movement_activity_template_matching.ipynb')
+1) Generate photometry activity templates corresponding to movement onsets and offsets based on Deeplabcut tracking ('1. Template_generation.ipynb')
+2) Generate set of actual movement events  ('2. Movement_detection.ipynb')
+3) Event detection based on photometry templates for movement onsets (e.g. '20241220_init_template_2_0_1_5.npy') and offets (e.g. '20241220_arrest_template_2_0_1_5.npy') ('3. Template_matching.ipynb')
+4) Analysis of detected events to actual movement events ('4. Event_analysis.ipynb')
 
 The analysis code is specifically designed for photometry data acquired via the TDT photometry system and behavioral coordinates obtained via Deeplabcut.
 
