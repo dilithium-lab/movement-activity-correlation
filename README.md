@@ -9,7 +9,7 @@ The project provides python code in Jupyter Notebook for analyses
 The analysis code is specifically designed for photometry data acquired via the TDT photometry system and behavioral coordinates obtained via Deeplabcut.
 
 Example photometry data for template matching can be found here:
-Deeplabcut and TDT photometry files: https://figshare.com/s/0f6bf6d993ebc2a96c3a
+Deeplabcut (.csv), movie, and TDT photometry files: https://figshare.com/s/0f6bf6d993ebc2a96c3a
 
 Installation
 Jupyter Notebook is provided via Anaconda (https://www.anaconda.com/download/success) with Python 3.11.
